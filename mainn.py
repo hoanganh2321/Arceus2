@@ -2,7 +2,6 @@ import discord
 from discord.ext import commands
 import requests
 
-BotToken = ' MTIzMTEwNjY2OTU0NzYxODMwNA.G0BVI2.fp9pt8dQse-WjhYbtjgVw_GPBJk2aOAXjn2vis '
 bot = commands.Bot(command_prefix="!", intents=discord.Intents.all())
 
 @bot.event
@@ -27,4 +26,4 @@ async def fluxus(ctx, link: str):
         print(f"Failed to retrieve data from API with status code {response.status_code}")
         await ctx.reply(f"Failed to retrieve data from API with status code {response.status_code}") 
 
-bot.run(BotToken)
+bot.run('MTIzMTEwNjY2OTU0NzYxODMwNA.GGKwUQ.fG2923OoqTengDbsNZl800bBVkBTQMjwc20CwE')

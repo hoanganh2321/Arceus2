@@ -26,4 +26,4 @@ async def fluxus(ctx, link: str):
         print(f"Failed to retrieve data from API with status code {response.status_code}")
         await ctx.reply(f"Failed to retrieve data from API with status code {response.status_code}") 
 
-bot.run('MTIzMTEwNjY2OTU0NzYxODMwNA.GGKwUQ.fG2923OoqTengDbsNZl800bBVkBTQMjwc20CwE')
+bot.run('TOKEN')
